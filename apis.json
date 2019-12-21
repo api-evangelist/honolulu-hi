@@ -9,8 +9,8 @@
         "have api",
         "profile"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/honolulu-hi\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -24,17 +24,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/honolulu-hi-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/honolulu-hi-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/honolulu-hi\/master\/honolulu-hi-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "https:\/\/data.honolulu.gov\/"
